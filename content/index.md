@@ -6,10 +6,6 @@ Description: This is our index page.
 Safa Moti
 ==========================
 
-The source for this page is in `content/index.md`.
-
-This is a sample home page written in markdown with some frontmatter defined.
-
 ---
 
 Lite om mig
