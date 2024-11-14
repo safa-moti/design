@@ -1,0 +1,22 @@
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    background-color: hotpink;
+    
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav a {
+    font-size: 3rem;
+
+}
