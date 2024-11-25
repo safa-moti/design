@@ -1,7 +1,5 @@
 .header {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
     padding: 2rem;
     align-items: center;
     background-color: hotpink;
@@ -16,7 +14,16 @@
 
 }
 
-.nav a {
-    font-size: 3rem;
+#nav.hidden {
+    display: none;
+}
 
+.nav a {
+    font-size: 1rem;
+
+}
+
+.title a {
+    color: #333333;
+    text-decoration: none;
 }
