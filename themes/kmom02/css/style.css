@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -6596,23 +6597,24 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Grundläggande layout för landing page */
 .landing-page {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.96rem;
-  padding: 2rem;
-  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 960px;
   margin: 0 auto;
 }
 
+/* Stora rubriken */
 .landing-page h1 {
-  grid-column: span 3;
-  justify-self: center;
   font-size: 2.5rem;
+  width: 100%;
   margin-bottom: 1.96rem;
   text-align: center;
 }
 
+/* Boxar på landing page */
 .box {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -6637,6 +6639,7 @@ body {
   margin-top: 0.5rem;
 }
 
+/* Grid-kolumner */
 .one-column {
   grid-column: span 1;
 }
@@ -6649,6 +6652,7 @@ body {
   grid-column: span 3;
 }
 
+/* Teknologisektionen */
 .technology {
   display: flex;
   flex-direction: row;
@@ -6664,18 +6668,4 @@ body {
 
 .technology .menu {
   width: 30%;
-}
-
-@media (max-width: 768px) {
-  .landing-page {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-  }
-  .box {
-    padding: 1rem;
-  }
-  .technology {
-    flex-direction: column;
-    gap: 1rem;
-  }
 }
