@@ -4,17 +4,20 @@
     justify-content: space-between;
     padding: 2rem;
     align-items: center;
-    background-color: hotpink;
+    background-color: #c65c97;
     color: #000;
     
+    p {
+        color: #000000;
+    }
 
     .social {
         a {
     
             text-decoration: none;
     
-            font-size: 3rem;
-            color: aliceblue;
+            font-size: 2rem;
+            color: #000000;
         }
    }
 }

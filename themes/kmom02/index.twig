@@ -1,13 +1,18 @@
 {% include 'incl/header.twig' %}
 
 <body>
-    {% include 'incl/nav.twig' %}
+    <div class="header-section">
+        <!-- Horisontell linje efter headern -->
+        <hr class="styled-line-dark">
+        {% include 'incl/nav.twig' %}
+    </div>
 
     <div class="main" role="main">
         {{ content }}
-        <p>Hej hopp</p>
     </div>
-    
+
+    <hr class="styled-line"> <!-- Horisontell linje mellan main och footer -->
+
     {% include 'incl/footer.twig' %}
 </body>
 

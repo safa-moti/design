@@ -5,7 +5,7 @@ Description: This is my about page.
 
 About
 ==========================
-# Om mig och mina tekniker
+## Om mig och mina tekniker
 
 Jag använder moderna webbutvecklingstekniker för att skapa responsiva och användarvänliga webbplatser. I denna portfolio använder jag följande teknologier:
 

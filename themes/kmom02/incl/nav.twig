@@ -2,8 +2,8 @@
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
-            <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+            <a href="{{ base_url }}" aria-label="logo">
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="logo" />
             </a>
         </div>
         {% endif %}
@@ -13,8 +13,7 @@
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" tabindex="0" role="button" aria-controls="nav" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>

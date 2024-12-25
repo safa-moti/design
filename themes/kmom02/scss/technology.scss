@@ -10,10 +10,10 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Grundläggande layout för landing page */
+/* Landing page layout */
 .landing-page {
-    display:flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tre kolumner på större skärmar */
     gap: 1rem;
     max-width: 960px;
     margin: 0 auto;
@@ -25,6 +25,19 @@ body {
     width: 100%;
     margin-bottom: 1.96rem;
     text-align: center;
+}
+
+/* Teknologisektionen */
+.technology-section {
+    grid-column: span 3; /* Teknologierna tar hela bredden i gridet */
+    text-align: center;
+    margin-bottom: 2rem; /* Skapa lite utrymme mellan rubrik och boxar */
+}
+
+.technology-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
 }
 
 /* Boxar på landing page */
@@ -41,6 +54,21 @@ body {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
+.technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.technology .article {
+    width: 60%;
+}
+
+.technology .menu {
+    width: 30%;
+}
+
 .box img {
     width: 100px;
     height: 100px;
@@ -52,7 +80,7 @@ body {
     margin-top: 0.5rem;
 }
 
-/* Grid-kolumner */
+/* Stilar för att låta boxarna ta upp olika antal kolumner */
 .one-column {
     grid-column: span 1;
 }
@@ -65,20 +93,15 @@ body {
     grid-column: span 3;
 }
 
-/* Teknologisektionen */
-.technology {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.technology .article {
-    width: 60%;
-}
-
-.technology .menu {
-    width: 30%;
+/* Media Query: Justering för mindre skärmar */
+@media (max-width: 768px) {
+    .landing-page {
+        grid-template-columns: 1fr; 
+    }
+    .technology-section {
+        grid-column: span 1; 
+    }
+    .menu {
+        display: none; 
+    }
 }
