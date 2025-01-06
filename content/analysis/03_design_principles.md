@@ -71,3 +71,13 @@ De vanligaste designprinciperna inkluderar:
 Den största skillnaden mellan framsidorna och undersidorna var att framsidorna oftast är mer dynamiska och interaktiva, medan undersidorna är mer informativa och strukturerade.
 
 Sammanfattningsvis har jag funnit att designprinciper är mycket anpassade till varje individs varumärke och syfte, och webbplatserna använder sig av en blandning av estetiska och funktionella designlösningar för att skapa en engagerande användarupplevelse.
+
+I min portfolio har jag använt flera designprinciper för att skapa en snygg och balanserad layout:
+
+Inramning: Jag har använt ramar för att lyfta fram viktiga delar och organisera innehållet på ett tydligt sätt.
+Kontrast: Genom att blanda mörka och ljusa färger har jag skapat kontrast som gör att viktiga delar står ut och blir lättare att se.
+Symmetri: För att skapa balans och ett lugnt intryck har jag använt symmetri i designen.
+Färg: Jag har använt färger för att skapa liv och framhäva viktiga delar, samtidigt som färgerna ger ett snyggt och enhetligt utseende.
+Det finns dock saker som kan förbättras. Jag vill göra portfolion mer levande och intressant genom att använda fler designprinciper, som att lägga till rörelse och variation. Dessutom kan detaljerna finslipas för att få portfolion att se ännu snyggare och mer professionell ut.
+
+Med dessa förbättringar hoppas jag att skapa en portfolio som är både snyggare och mer engagerande.
